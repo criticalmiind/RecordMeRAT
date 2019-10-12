@@ -1,8 +1,7 @@
 #!/bin/bash
 # SayHello v1.0
-# coded by: github.com/thelinuxchoice/sayhello
-# Twitter: @linux_choice
-# Using Recorderjs by: https://github.com/mattdiamond/Recorderjs
+# coded by: https://github.com/criticalmiind/RecordMeRAT
+# Facebook: ShawalAhmadOfficialPage
 trap 'printf "\n";stop' 2
 
 banner() {
@@ -13,7 +12,7 @@ printf "\e[1;92m    |  _ <|  __/| (__| (_) || |  | (_| | | |  | ||  __/ \e[0m\n"
 printf "\e[1;92m    |_| \_\\____| \___|\___/ |_|   \__,_| |_|  |_| \___| \e[0m\n"
 printf "\e[1;92m                                                            \e[0m\n"
 
-# printf "\e[1;77m v1.0 coded by github.com/thelinuxchoice/sayhello\e[0m \n"
+# printf "\e[1;77m v0.1.0 coded by github.com/criticalmiind/RecordMeRAT\e[0m \n"
 
 printf " Facebook: ShawalAhmadOfficialPage\n"
 
