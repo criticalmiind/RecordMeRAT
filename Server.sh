@@ -1,5 +1,5 @@
 #!/bin/bash
-# SayHello v1.0
+# RecordMe v1.0
 # coded by: https://github.com/criticalmiind/RecordMeRAT
 # Facebook: ShawalAhmadOfficialPage
 trap 'printf "\n";stop' 2
@@ -223,7 +223,7 @@ sed 's+redirect_link+'$redirect_link'+g' js/_app.js > js/app.js
 start() {
 
 default_choose_sub="Y"
-default_subdomain="sayhello$RANDOM"
+default_subdomain="RecordMe$RANDOM"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? \e[0m\e[1;77m [Y/n] \e[0m\e[1;33m: \e[0m'
 read choose_sub

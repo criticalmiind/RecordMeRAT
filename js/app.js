@@ -18,7 +18,7 @@ redButton.addEventListener("click", Redirect);
 
 function Redirect() {
 
-window.open('https://www.youtube.com/watch?v=vvxp4W29OAk', '_blank');
+window.open('https://youtube.com', '_blank');
 
 
 }
